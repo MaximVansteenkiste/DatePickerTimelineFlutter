@@ -5,7 +5,7 @@ This is a fork of the DatePickerTimelineFlutter package with support for highlig
 The package is not available via pub.dev. Add the following code to pubspec.yaml dependencies.
 
 ```dart
-DatePickerTimelineFlutter:
+date_picker_timeline:
     git:
       url: git://github.com/MaximVansteenkiste/DatePickerTimelineFlutter.git
       ref: main
