@@ -1,6 +1,18 @@
 # DatePickerTimeline with current day and event indicators
 This is a fork of the DatePickerTimelineFlutter package with support for highlighting the current day and indicating that a date contains events.
 
+## Install
+The package is not available via pub.dev. Add the following code to pubspec.yaml dependencies.
+
+```dart
+DatePickerTimelineFlutter:
+    git:
+      url: git://github.com/MaximVansteenkiste/DatePickerTimelineFlutter.git
+      ref: main
+```
+
+Original readme:
+
 [![Pub](https://img.shields.io/pub/v/date_picker_timeline?color=%232bb6f6)](https://pub.dev/packages/date_picker_timeline)
 
 Flutter Date Picker Library that provides a calendar as a horizontal timeline.
@@ -8,14 +20,6 @@ Flutter Date Picker Library that provides a calendar as a horizontal timeline.
 <p>
  <img src="https://raw.githubusercontent.com/iamvivekkaushik/DatePickerTimelineFlutter/master/screenshots/demo.gif?raw=true"/>
 </p>
-
-## How To Use
-
-Import the following package in your dart file
-
-```dart
-import 'package:date_picker_timeline/date_picker_timeline.dart';
-```
 
 ## Usage
 
